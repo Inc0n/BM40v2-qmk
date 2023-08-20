@@ -12,6 +12,7 @@ This firmware was originally taken from a kbfirmware.json and manually converted
 
 Make example for this keyboard (after setting up your build environment):
 
+    qmk config user.keyboard=kprepublic/bm40hsrgb
     qmk compile -km Inc0n kprepublic/bm40hsrgb:default
 
 Flashing example for this keyboard:
